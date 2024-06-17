@@ -47,6 +47,11 @@
 ---@field enable_create_new boolean
 ---@field clipboard_program string
 ---@field filter_extensions string[]
+---@field template_new_note string
+---@field template_new_daily string
+---@field template_new_weekly string
+---@field find_command string[] 
+---@field rg_pcre boolean
 
 ---@class CalendarOpts
 ---@field weeknm number
